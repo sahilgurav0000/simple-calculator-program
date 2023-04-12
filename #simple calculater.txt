@@ -1,0 +1,100 @@
+#simple calculater 
+user_input1=int(input("Enter the first number:-"))
+user_input2=int(input("Enter the second  number:-"))
+
+print('''
+---------------------------------------------------------------
+''')
+
+
+#variable 
+add=0
+sub=0
+div=0
+mul=0
+
+#option for user to do calculation
+print("                   Choose opration         ",)
+print('''
+                   1.Addition
+                   2.Subtraction 
+                   3.Multiplication
+                   4.Divion
+''')
+
+
+
+#code for chossing oparation
+user_choose_opration=int(input("Enter the operation number :-  "))
+print('''
+---------------------------------------------------------------
+''')
+#code for addition 
+if (user_choose_opration)==1:
+    print("You choose addition operation ")
+    print(" ")
+    add=user_input1+user_input2
+    print("Addition of",user_input1,"AND",user_input2," is :- ",add)
+    print("")
+    print('''      
+---------------------------------------------------------------
+                         THANK YOU
+---------------------------------------------------------------
+    ''')
+
+    
+
+#code for subtraction 
+elif (user_choose_opration)==2:
+    print("You choose subtraction  operation ")
+    print(" ")
+    sub=user_input1-user_input2
+    print("Subtraction of",user_input1,"AND",user_input2," is :- ",sub)
+    print("")
+    print('''
+---------------------------------------------------------------
+                         THANK YOU
+---------------------------------------------------------------
+                        
+    ''')
+
+
+#code for multiplication     
+elif (user_choose_opration)==3:
+    print("You  choose  multiplication  operation ")
+    print(" ")
+    mul=user_input1*user_input2
+    print("Multiplication of two numbers is :- ",mul)
+    print("")
+    print('''
+---------------------------------------------------------------
+                         THANK YOU
+---------------------------------------------------------------
+                       
+    ''')
+
+
+#code for division    
+elif (user_choose_opration)==4:
+    print("You choose  divion  operation ")
+    print(" ")
+    div=user_input1/user_input2
+    print("Divion of two numbers is :- ",div)
+    print("")
+    print('''
+---------------------------------------------------------------
+                         THANK YOU
+---------------------------------------------------------------
+                      
+    ''')
+
+#code if user_input is not valid    
+else:
+    print("Invalid input")
+    print("")
+    print('''
+---------------------------------------------------------------
+                         THANK YOU
+---------------------------------------------------------------
+''')
+                        
