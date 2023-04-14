@@ -19,7 +19,7 @@ print('''
                    1.Addition
                    2.Subtraction 
                    3.Multiplication
-                   4.Divion
+                   4.Division
 ''')
 
 
@@ -76,10 +76,10 @@ elif (user_choose_opration)==3:
 
 #code for division    
 elif (user_choose_opration)==4:
-    print("You choose  divion  operation ")
+    print("You choose  division  operation ")
     print(" ")
     div=user_input1/user_input2
-    print("Divion of two numbers is :- ",div)
+    print("Division of two numbers is :- ",div)
     print("")
     print('''
 ---------------------------------------------------------------
