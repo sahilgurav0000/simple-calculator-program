@@ -1,2 +1,1 @@
-# simple-calculator-program
-simple calculator
+this is first code
